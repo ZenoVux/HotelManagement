@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelManagement.BackendApi", "HotelManagement.BackendApi\HotelManagement.BackendApi.csproj", "{FD6699E4-F30F-46AA-9F40-AC42B8738FF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotelManagement.BackendApi", "HotelManagement.BackendApi\HotelManagement.BackendApi.csproj", "{FD6699E4-F30F-46AA-9F40-AC42B8738FF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelManagement.Data", "HotelManagement.Data\HotelManagement.Data.csproj", "{450196EC-E71A-41A1-BD92-49AB3C4EC576}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotelManagement.Data", "HotelManagement.Data\HotelManagement.Data.csproj", "{450196EC-E71A-41A1-BD92-49AB3C4EC576}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelManagement.Service", "HotelManagement.Service\HotelManagement.Service.csproj", "{57322A20-737B-4E33-8A5F-4EAB2671C08F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotelManagement.Service", "HotelManagement.Service\HotelManagement.Service.csproj", "{57322A20-737B-4E33-8A5F-4EAB2671C08F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelManagement.Model", "HotelManagement.Model\HotelManagement.Model.csproj", "{3782E8B1-0F46-4039-A023-9034C067772D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotelManagement.Model", "HotelManagement.Model\HotelManagement.Model.csproj", "{3782E8B1-0F46-4039-A023-9034C067772D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelManagement.Repository", "HotelManagement.Repository\HotelManagement.Repository.csproj", "{394928C6-9B73-486D-AC83-5FA733B60F7C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{3782E8B1-0F46-4039-A023-9034C067772D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3782E8B1-0F46-4039-A023-9034C067772D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3782E8B1-0F46-4039-A023-9034C067772D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{394928C6-9B73-486D-AC83-5FA733B60F7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{394928C6-9B73-486D-AC83-5FA733B60F7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{394928C6-9B73-486D-AC83-5FA733B60F7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{394928C6-9B73-486D-AC83-5FA733B60F7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
